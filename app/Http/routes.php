@@ -17,17 +17,6 @@ Route::get('/', function () {
 
 Route::get('/{linkId}', 'RedirectController@redirect');
 
-
-//Shortened Links (examples)
-Route::get('/goog', function () {
-    return redirect('http://google.com');
-});
-Route::get('/you', function () {
-    return redirect('http://youtube.com');
-});
-
-
-
 /*
 |--------------------------------------------------------------------------
 | Application Routes
