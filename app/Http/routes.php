@@ -4,6 +4,7 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::post('/', 'RedirectController@create');
 Route::get('/{linkId}', 'RedirectController@redirect');
 
 
