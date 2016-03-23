@@ -12,7 +12,7 @@
 	<h3>Shorten A URL!</h3>
 	<form method="POST" action="/">
 		<div class="form-group">
-			<input class="form-control" type="text" name="url" placeholder="Enter URL"></input>
+			<input class="form-control" type="text" name="url" value="http://"></input>
 		</div>
 		<div class="form-group">
 			<button type="submit" class="btn btn-primary">Submit</button>
